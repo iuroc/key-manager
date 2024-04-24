@@ -33,6 +33,6 @@ export const createKey = async (): Promise<string> => {
         body: params
     })
     const data = await res.json() as Res
-    alert(data.message)
+    if (!data.success) alert(data.message)
     return data.data
 }

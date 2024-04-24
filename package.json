@@ -1,6 +1,7 @@
 {
     "dependencies": {
         "bootstrap": "^5.3.3",
+        "clipboard": "^2.0.11",
         "fs-extra": "^11.2.0",
         "vanjs-core": "^1.5.0",
         "vanjs-router": "^1.2.3"
